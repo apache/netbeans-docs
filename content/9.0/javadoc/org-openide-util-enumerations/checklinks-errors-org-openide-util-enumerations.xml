@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.netbeans.nbbuild.CheckLinks" tests="1" time="0.0">
+    <testcase classname="org.netbeans.nbbuild.CheckLinks" name="testBrokenLinks" time="0.0">
+        <failure message="There were broken links" type="junit.framework.AssertionFailedError">There were broken links
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.enumerations/apichanges.xml:111:18: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-util/org/openide/util/Enumerations.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.enumerations/arch.xml:42:17: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-util/org/openide/util/Enumerations.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.enumerations/src/org/openide/util/enum/package.html:156:10: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-util/org/openide/util/Enumerations.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.enumerations/arch.xml:121:18: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-util/org/openide/util/Enumerations.html</failure>
+    </testcase>
+</testsuite>

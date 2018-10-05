@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.netbeans.nbbuild.CheckLinks" tests="1" time="0.0">
+    <testcase classname="org.netbeans.nbbuild.CheckLinks" name="testBrokenLinks" time="0.0">
+        <failure message="There were broken links" type="junit.framework.AssertionFailedError">There were broken links
+/home/nsigma/Code/NetBeans/incubator-netbeans/java.source.base/arch.xml:353:171: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-windows/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/java.source.base/arch.xml:240:163: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-awt/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/java.source.base/arch.xml:269:179: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-filesystems/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/java.source.base/arch.xml:310:167: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-nodes/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/java.source.base/arch.xml:295:171: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-modules/overview-summary.html</failure>
+    </testcase>
+</testsuite>

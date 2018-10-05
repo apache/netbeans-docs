@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.netbeans.nbbuild.CheckLinks" tests="1" time="0.0">
+    <testcase classname="org.netbeans.nbbuild.CheckLinks" name="testBrokenLinks" time="0.0">
+        <failure message="There were broken links" type="junit.framework.AssertionFailedError">There were broken links
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.explorer/apichanges.xml:16:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-explorer/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.explorer/arch.xml:9:10: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-explorer/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.explorer/arch.xml:332:22: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-nodes/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.explorer/src/org/openide/explorer/doc-files/api.html:29:34: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-explorer/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.explorer/src/org/openide/explorer/doc-files/propertyViewCustomization.html:416:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-options/org/openide/options/SystemOption.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.explorer/src/org/openide/explorer/package.html:41:14: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-explorer/help-doc.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.explorer/src/org/openide/explorer/package.html:34:14: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-explorer/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-explorer/org/openide/explorer/propertysheet/editors/package-summary.html:41:14: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-explorer/help-doc.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-explorer/org/openide/explorer/propertysheet/editors/package-summary.html:34:14: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-explorer/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.explorer/src/org/openide/explorer/propertysheet/package.html:41:14: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-explorer/help-doc.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.explorer/src/org/openide/explorer/propertysheet/package.html:34:14: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-explorer/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.explorer/src/org/openide/explorer/view/package.html:41:14: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-explorer/help-doc.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.explorer/src/org/openide/explorer/view/package.html:34:14: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-explorer/overview-summary.html</failure>
+    </testcase>
+</testsuite>

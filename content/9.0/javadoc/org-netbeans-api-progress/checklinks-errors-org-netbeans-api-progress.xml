@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.netbeans.nbbuild.CheckLinks" tests="1" time="0.0">
+    <testcase classname="org.netbeans.nbbuild.CheckLinks" name="testBrokenLinks" time="0.0">
+        <failure message="There were broken links" type="junit.framework.AssertionFailedError">There were broken links
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.progress/apichanges.xml:282:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-progress-nb/org/netbeans/api/progress/ProgressHandleFactory.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.progress/apichanges.xml:288:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-progress-nb/org/netbeans/api/progress/ProgressUtils.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.progress/apichanges.xml:274:59: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-progress-nb/apichanges.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.progress/apichanges.xml:312:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-progress-nb/org/netbeans/modules/progress/spi/SwingController.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.progress/apichanges.xml:294:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-progress-nb/org/netbeans/api/progress/aggregate/AggregateProgressFactory.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.progress/apichanges.xml:300:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-progress-nb/org/netbeans/modules/progress/spi/ExtractedProgressUIWorker.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.progress/apichanges.xml:318:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-progress-nb/org/netbeans/modules/progress/spi/UIInternalHandle.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.progress/arch.xml:162:10: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-progress-nb/org/netbeans/api/progress/ProgressHandleFactory.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.progress/arch.xml:168:10: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-progress-nb/org/netbeans/api/progress/ProgressUtils.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.progress/arch.xml:154:59: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-progress-nb/apichanges.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.progress/arch.xml:192:10: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-progress-nb/org/netbeans/modules/progress/spi/SwingController.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.progress/arch.xml:174:10: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-progress-nb/org/netbeans/api/progress/aggregate/AggregateProgressFactory.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.progress/arch.xml:180:10: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-progress-nb/org/netbeans/modules/progress/spi/ExtractedProgressUIWorker.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.progress/arch.xml:198:10: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-progress-nb/org/netbeans/modules/progress/spi/UIInternalHandle.html</failure>
+    </testcase>
+</testsuite>

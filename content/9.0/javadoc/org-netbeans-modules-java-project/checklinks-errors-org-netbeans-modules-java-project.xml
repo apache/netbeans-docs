@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.netbeans.nbbuild.CheckLinks" tests="1" time="0.0">
+    <testcase classname="org.netbeans.nbbuild.CheckLinks" name="testBrokenLinks" time="0.0">
+        <failure message="There were broken links" type="junit.framework.AssertionFailedError">There were broken links
+/home/nsigma/Code/NetBeans/incubator-netbeans/java.project/apichanges.xml:537:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-modules-java-project-ui/org/netbeans/spi/java/project/runner/package-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/java.project/apichanges.xml:545:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-modules-java-project-ui/org/netbeans/spi/java/project/support/ui/templates/package-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/java.project/apichanges.xml:527:30: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-modules-java-project-ui/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/java.project/apichanges.xml:541:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-modules-java-project-ui/org/netbeans/spi/java/project/support/ui/package-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/java.project/apichanges.xml:533:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-modules-java-project-ui/org/netbeans/api/java/project/runner/package-summary.html</failure>
+    </testcase>
+</testsuite>

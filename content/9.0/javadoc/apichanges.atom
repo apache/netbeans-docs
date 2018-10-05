@@ -1,0 +1,1668 @@
+<?xml version="1.0" encoding="UTF-8"?><atom:feed xmlns:xalan="http://xml.apache.org/xslt" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <atom:id>urn:netbeans-org:apichanges</atom:id>
+    <atom:title>NetBeans API Changes</atom:title>
+    <atom:author>
+        <atom:name>netbeans.org</atom:name>
+    </atom:author>
+    <atom:link rel="alternate" type="text/html" href="apichanges.html"/>
+    <atom:link rel="self" type="application/xml+atom" href="http://deadlock.netbeans.org/job/nbms-and-javadoc/javadoc/apichanges.atom"/>
+    <atom:updated>2018-10-05T18:12:47Z</atom:updated>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:TreeUtilities.isPartOfCompoundVariableDeclaration</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.source.base] Check the tree is the end of compound declaration.</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-source-base/apichanges.html#TreeUtilities.isPartOfCompoundVariableDeclaration"/>
+        <atom:updated>2018-05-14T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>arusinha</atom:name>
+            <atom:email>arusinha@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns0:description xmlns:ns0="http://www.w3.org/1999/xhtml">
+            Check whether tree is part of compound declaration.
+        </ns0:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:TreeUtilities.isEndOfCompoundVariableDeclaration</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.source.base] Check the tree is the end of compound declaration.</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-source-base/apichanges.html#TreeUtilities.isEndOfCompoundVariableDeclaration"/>
+        <atom:updated>2018-05-03T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>vikasprabhakar</atom:name>
+            <atom:email>vikasprabhakar@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns1:description xmlns:ns1="http://www.w3.org/1999/xhtml">
+            Check the tree end with comma.
+        </ns1:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:netbeans_diff_default_compact</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.diff] Show compact diff with netbeans.diff.default.compact system property</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-diff/apichanges.html#netbeans_diff_default_compact"/>
+        <atom:updated>2018-05-02T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>emi</atom:name>
+            <atom:email>emi@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns2:description xmlns:ns2="http://www.w3.org/1999/xhtml">
+            Added the system property netbeans.diff.default.compact which instructs the default DiffControllerProvider to
+            show only the graphical diff (instead of the tabbed pane with the graphical and textual diffs).
+        </ns2:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:BuildArtifactMapper.isCompileOnSaveSupported</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.source.base] Check the var type variable in given tree path.</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-source-base/apichanges.html#BuildArtifactMapper.isCompileOnSaveSupported"/>
+        <atom:updated>2018-04-20T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>jlahoda</atom:name>
+            <atom:email>jlahoda@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns3:description xmlns:ns3="http://www.w3.org/1999/xhtml">
+            Added BuildArtifactMapper.isCompileOnSaveSupported method, which
+            checks if compile on save is suported in the current configuration.
+        </ns3:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:TreeUtilities.isVarType</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.source.base] Check the var type variable in given tree path.</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-source-base/apichanges.html#TreeUtilities.isVarType"/>
+        <atom:updated>2018-03-27T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>vikasprabhakar</atom:name>
+            <atom:email>vikasprabhakar@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns4:description xmlns:ns4="http://www.w3.org/1999/xhtml">
+            Check the var type variable in given tree path.
+        </ns4:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:JavaFixUtilities.isPrimary</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.spi.java.hints] Added JavaFixUtilities.isPrimary() utility</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-spi-java-hints/apichanges.html#JavaFixUtilities.isPrimary"/>
+        <atom:updated>2018-01-15T00:00:00Z</atom:updated>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns5:description xmlns:ns5="http://www.w3.org/1999/xhtml">
+                <p>
+                    The utility method JavaFixUtilities.isPrimary() was added.
+                    This API checks whether a specified tree can be used in
+                    places where a Primary expression is required.
+                </p>
+            </ns5:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:defaultcss</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.api.htmlui] CSS for Look and Feel</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-api-htmlui/apichanges.html#defaultcss"/>
+        <atom:updated>2017-11-28T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>jtulach</atom:name>
+            <atom:email>jtulach@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns6:description xmlns:ns6="http://www.w3.org/1999/xhtml">
+            <p>
+                Each <code>WebView</code> created by one of the
+                annotations (
+                <a href="org-netbeans-api-htmlui/org/netbeans/api/htmlui/HTMLComponent.html" shape="rect">@HTMLComponent</a>,
+                <a href="org-netbeans-api-htmlui/org/netbeans/api/htmlui/HTMLDialog.html" shape="rect">@HTMLDialog</a>,
+                <a href="org-netbeans-api-htmlui/org/netbeans/api/htmlui/OpenHTMLRegistration.html" shape="rect">@OpenHTMLRegistration</a>
+                ) is by default skinned with a CSS that makes it
+                look like the the other Swing components.
+                Read <a href="org-netbeans-api-htmlui/architecture-summary.html#property-data-netbeans-css" shape="rect">more</a>...
+            </p>
+        </ns6:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:pac-script-evaluator</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.core.network] PAC Script evaluation environment is now pluggable</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-core-network/apichanges.html#pac-script-evaluator"/>
+        <atom:updated>2017-10-18T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>lbruun</atom:name>
+            <atom:email>lbruun@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns7:description xmlns:ns7="http://www.w3.org/1999/xhtml">
+              <p>
+                  The PAC Script Evaluation environment (as part of <code>ProxySelector</code>)
+                  has been completely rewritten and is now pluggable. (albeit for now only for friends)
+              </p>
+          </ns7:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:version-2.49</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.api.visual] States for non-registered objects</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-api-visual/apichanges.html#version-2.49"/>
+        <atom:updated>2017-09-27T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>sdedic</atom:name>
+            <atom:email>sdedic@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns8:description xmlns:ns8="http://www.w3.org/1999/xhtml">
+                <p>
+                    When the scene is incrementally rendered, it may be possible that a model object becomes selected before some widgets are registered with the scene.
+                    Hover, select, focus flags can be attached even to unregistered objects.
+                </p>
+                <p>
+                    Implemented in <a href="https://github.com/apache/incubator-netbeans/pull/308" shape="rect">PR #308</a>
+                </p>
+            </ns8:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:fixable-annotation-default-action</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.spi.editor.hints] Provide a way to have fixable annotation with default action</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-spi-editor-hints/apichanges.html#fixable-annotation-default-action"/>
+        <atom:updated>2017-07-24T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>mromashova</atom:name>
+            <atom:email>mromashova@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns9:description xmlns:ns9="http://www.w3.org/1999/xhtml">
+                 For custom type of annotations will dynamically register this annotation type as fixable, so Fix action (click on the icon) will work for it
+             </ns9:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:multiple-annotation-type</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.spi.editor.hints] Support multiple ranges for ErrorDescriptor</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-spi-editor-hints/apichanges.html#multiple-annotation-type"/>
+        <atom:updated>2017-07-17T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>mromashova</atom:name>
+            <atom:email>mromashova@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns10:description xmlns:ns10="http://www.w3.org/1999/xhtml">
+                 Added support for multiple ranges for error/warning. New field added to ErrorDescription  as well as corresponding getter method and new constructor 
+                 in order to be able to provide multiple ranges support for highlight  particular hint. Added new factory method to
+                 ErrorDescriptionFactory which uses new ErrorDescription constructor.
+             </ns10:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:userExecution</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.apache.tools.ant.module] Added a method to mark an execution as user / non-user into the <ns11:code xmlns:ns11="http://www.w3.org/1999/xhtml">AntTargetExecutor.Env</ns11:code>
+            </xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-apache-tools-ant-module/apichanges.html#userExecution"/>
+        <atom:updated>2017-05-02T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns12:description xmlns:ns12="http://www.w3.org/1999/xhtml">
+                <p>Added a method <code>AntTargetExecutor.Env.setUserAction</code>to mark an execution as user / non-user.
+                The executions marked as user actions are registered in the UI support
+                <code>org.netbeans.spi.project.ui.support.BuildExecutionSupport</code>. By default the execution is an user action.
+                </p>
+            </ns12:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:ModeSelector</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.openide.windows] Allow to select Mode for opening a TopComponent instance</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-openide-windows/apichanges.html#ModeSelector"/>
+        <atom:updated>2017-05-02T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>sdedic</atom:name>
+            <atom:email>sdedic@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns13:description xmlns:ns13="http://www.w3.org/1999/xhtml">
+            <p>
+                Plugin implementors can direct to-be-opened TopComponents to appropriate Modes or
+                prevent them to open in inappropriate Modes.
+            </p>
+        </ns13:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:tabReplacePolicy</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.apache.tools.ant.module] Added methods to override the default tab replacement policy into the <ns14:code xmlns:ns14="http://www.w3.org/1999/xhtml">AntTargetExecutor.Env</ns14:code>
+            </xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-apache-tools-ant-module/apichanges.html#tabReplacePolicy"/>
+        <atom:updated>2017-04-27T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns15:description xmlns:ns15="http://www.w3.org/1999/xhtml">
+                <p>
+                    When the IDE is set to the automatic close tabs mode the tabs created by the previous
+                    run of the <code>AntTargetExecutor</code> are closed by successive run.
+                    Added a support to override this behavior.
+                </p>
+            </ns15:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:java-platform-valid</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.platform] Added a <ns16:code xmlns:ns16="http://www.w3.org/1999/xhtml">isValid</ns16:code> method into <ns17:code xmlns:ns17="http://www.w3.org/1999/xhtml">JavaPlatform</ns17:code>
+            </xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-platform/apichanges.html#java-platform-valid"/>
+        <atom:updated>2017-04-03T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns18:description xmlns:ns18="http://www.w3.org/1999/xhtml">
+                <p>
+                    Added a <code>isValid</code> method into <code>JavaPlatform</code>
+                    to check platform validity. The platform is non valid when it's deleted
+                    or an platform tool (java, javac) is missing or bootstrap libraries are missing.
+                </p>
+            </ns18:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:instances</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.sendopts] Command line with instances</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-sendopts/apichanges.html#instances"/>
+        <atom:updated>2017-03-23T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>jtulach</atom:name>
+            <atom:email>jtulach@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns19:description xmlns:ns19="http://www.w3.org/1999/xhtml">
+          <a href="org-netbeans-modules-sendopts/org/netbeans/api/sendopts/CommandLine.html#create-java.lang.Object...-" shape="rect">Create</a>
+          command line with instances of
+          <a href="org-netbeans-modules-sendopts/org/netbeans/spi/sendopts/OptionProcessor.html" shape="rect">OptionProcessor</a>
+          and
+          <a href="org-netbeans-modules-sendopts/org/netbeans/spi/sendopts/ArgsProcessor.html" shape="rect">ArgsProcessor</a>.
+     </ns19:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:decorators</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.api.templates] Support for decorating the creation process</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-api-templates/apichanges.html#decorators"/>
+        <atom:updated>2017-03-22T00:00:00Z</atom:updated>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns20:description xmlns:ns20="http://www.w3.org/1999/xhtml">
+              <p>
+                  In addition to provide <code>CreateFromTemplateHandler</code> which overtakes the
+                  template processing, <code>CreateFromTemplateDecorator</code> can participate in
+                  file creation doing pre- and post-creation tasks and edits either in the created file
+                  or other files.
+              </p>
+          </ns20:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:usage-into</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.sendopts] Print Usage into Caller's Stream</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-sendopts/apichanges.html#usage-into"/>
+        <atom:updated>2017-03-21T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>jtulach</atom:name>
+            <atom:email>jtulach@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns21:description xmlns:ns21="http://www.w3.org/1999/xhtml">
+          <a href="org-netbeans-modules-sendopts/org/netbeans/spi/sendopts/Env.html#usage-java.io.OutputStream-" shape="rect">Env.usage</a>
+          method now takes an optional <code>OutputStream</code> parameter.
+     </ns21:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:explicit-options-processor</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.sendopts] Explictly specify option processors</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-sendopts/apichanges.html#explicit-options-processor"/>
+        <atom:updated>2017-03-21T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>jtulach</atom:name>
+            <atom:email>jtulach@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns22:description xmlns:ns22="http://www.w3.org/1999/xhtml">
+          <a href="org-netbeans-modules-sendopts/org/netbeans/api/sendopts/CommandLine.html#create-java.lang.Class...-" shape="rect">CommandLine.html.create(Class...)</a>
+          can now be called with classes that extend
+          <a href="org-netbeans-modules-sendopts/org/netbeans/spi/sendopts/OptionProcessor.html" shape="rect">OptionProcessor</a>.
+     </ns22:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:BrokenReferencesSupport.createPlatformVersionProblemProvider</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.project.ui] Extended the <ns23:code xmlns:ns23="http://www.w3.org/1999/xhtml">BrokenReferencesSupport.createPlatformVersionProblemProvider</ns23:code> by the mininal source level supported by the project</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-project-ui/apichanges.html#BrokenReferencesSupport.createPlatformVersionProblemProvider"/>
+        <atom:updated>2017-03-20T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns24:description xmlns:ns24="http://www.w3.org/1999/xhtml">
+                Extended the <code>BrokenReferencesSupport.createPlatformVersionProblemProvider</code> by the mininal source level supported by the project
+            </ns24:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:associatedRoots</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.project.ant] Support for source root grouping</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-project-ant/apichanges.html#associatedRoots"/>
+        <atom:updated>2017-03-20T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>sdedic</atom:name>
+            <atom:email>sdedic@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns25:description xmlns:ns25="http://www.w3.org/1999/xhtml">
+                <p>
+                    A <code>SourceRootConfig</code> can be identifier by a structured "identifier" so when a new SourceGroup should be created as an
+                    associcate to existing sources, it is created in appropriate "sibling" location. See <code>SourceGroupModifier</code> for more details.
+                </p>
+            </ns25:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:SourceGroupRelativeModifierImplementation</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.projectapi] Added a <ns26:code xmlns:ns26="http://www.w3.org/1999/xhtml">SourceGroupRelativeModifierImplementation</ns26:code> to improve source root creation</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-projectapi/apichanges.html#SourceGroupRelativeModifierImplementation"/>
+        <atom:updated>2017-03-20T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>sdedic</atom:name>
+            <atom:email>sdedic@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns27:description xmlns:ns27="http://www.w3.org/1999/xhtml">
+                <p>
+                    In presence of multiple source roots, e.g. several source folders, or test folders, some of them may be more
+                    related to the 
+                </p>
+            </ns27:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:ProjectModulesModifier</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.project] Added a SPI to manipulate with project's <ns28:code xmlns:ns28="http://www.w3.org/1999/xhtml">module-info.java</ns28:code> declarations</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-project/apichanges.html#ProjectModulesModifier"/>
+        <atom:updated>2017-03-16T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>sdedic</atom:name>
+            <atom:email>sdedic@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns29:description xmlns:ns29="http://www.w3.org/1999/xhtml">
+                Added a SPI interface, which should be implemented on project to provide backwards compatibility for
+                <code>ProjectClassPathModifier</code> for modular projects. 
+            </ns29:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:ModuleGroupInfo</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.api.common] Added factory method and interface to determine relationships between SourceGroups and modules</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-api-common/apichanges.html#ModuleGroupInfo"/>
+        <atom:updated>2017-03-07T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>sdedic</atom:name>
+            <atom:email>sdedic@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns30:description xmlns:ns30="http://www.w3.org/1999/xhtml">
+                <p>
+                    <code>MultiModuleGroupQuery</code> query interface allows to find out which module owns
+                    a particular <code>SourceGroup</code>. Project implementors can create an instance
+                    using new query method on <code>QuerySupport</code>.
+                </p>
+            </ns30:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:modules.constants</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.api.common] Added module-related properties to <ns31:code xmlns:ns31="http://www.w3.org/1999/xhtml">ProjectProperties</ns31:code>
+            </xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-api-common/apichanges.html#modules.constants"/>
+        <atom:updated>2017-02-24T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>sdedic</atom:name>
+            <atom:email>sdedic@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns32:description xmlns:ns32="http://www.w3.org/1999/xhtml">
+                <p>
+                    Added <code>BUILD_TEST_MODULES_DIR</code> to denote build location for tests in modular projects
+                </p>
+            </ns32:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:ElementHandle.createModuleElementHandle</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.source.base] Added a method to create an <ns33:code xmlns:ns33="http://www.w3.org/1999/xhtml">ElementHandle</ns33:code> for module</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-source-base/apichanges.html#ElementHandle.createModuleElementHandle"/>
+        <atom:updated>2017-01-17T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns34:description xmlns:ns34="http://www.w3.org/1999/xhtml">
+            Added a method to create a module <code>ElementHandle</code> from a module name.
+        </ns34:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:JDK9-ModulePackages-ModuleMainClass-ModuleTarget</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.classfile] Introduced ModulePackages, ModuleMainClass, ModuleTarget attributes</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-classfile/apichanges.html#JDK9-ModulePackages-ModuleMainClass-ModuleTarget"/>
+        <atom:updated>2017-01-05T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns35:description xmlns:ns35="http://www.w3.org/1999/xhtml">
+               Introduced ModulePackages, ModuleMainClass, ModuleTarget attributes according to recent JDK 9 JLS
+            </ns35:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:JDK9-Module</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.classfile] Updated ClassFile Module attribute to recent JDK 9 JLS</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-classfile/apichanges.html#JDK9-Module"/>
+        <atom:updated>2017-01-05T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns36:description xmlns:ns36="http://www.w3.org/1999/xhtml">
+                Updated ClassFile to recent JDK 9 JLS.
+            </ns36:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:GetAuthenticationPassword</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.openide.util.ui] API <ns37:code xmlns:ns37="http://www.w3.org/1999/xhtml">NetworkSettings.getAuthenticationPassword</ns37:code> added</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-openide-util-ui/apichanges.html#GetAuthenticationPassword"/>
+        <atom:updated>2016-11-11T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tstupka</atom:name>
+            <atom:email>tstupka@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns38:description xmlns:ns38="http://www.w3.org/1999/xhtml">
+            <p>
+                The SPI <a href="org-openide-util-ui/org/openide/util/NetworkSettings.ProxyCredentialsProvider.html" shape="rect">
+                NetworkSettings.ProxyCredentialsProvider</a> allows NetBeans Platform
+                users to provide proxy and network credentials, but the according API should also provide
+                the password, not only the username.
+            </p>
+        </ns38:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:mavenarchetypes</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.api.templates] Maven Archetypes</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-api-templates/apichanges.html#mavenarchetypes"/>
+        <atom:updated>2016-11-01T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>jtulach</atom:name>
+            <atom:email>jtulach@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns39:description xmlns:ns39="http://www.w3.org/1999/xhtml">
+              One can now create project wizards that create new projects
+              from Maven archetypes. See the
+              <a href="org-netbeans-api-templates/overview-summary.html#html-and-maven" shape="rect">how-to</a>
+              for more details.
+          </ns39:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:issue-268011</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.api.debugger.jpda] Differentiate application-level exceptions</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-api-debugger-jpda/apichanges.html#issue-268011"/>
+        <atom:updated>2016-10-26T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>mentlicher</atom:name>
+            <atom:email>mentlicher@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns40:description xmlns:ns40="http://www.w3.org/1999/xhtml">
+            <code>InvalidExpressionException</code> can be thrown as a result
+            of an application-level exception. We need to differentiate this case
+            from exceptions thrown from NetBeans code. A boolean argument in the
+            constructor and a method <code>hasApplicationTarget()</code> are
+            added to <code>InvalidExpressionException</code> for this purpose.
+        </ns40:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:ModulePathsConstants</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.api.java] Added constants for module paths into the <ns41:code xmlns:ns41="http://www.w3.org/1999/xhtml">JavaClassPathConstants</ns41:code>
+            </xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-api-java/apichanges.html#ModulePathsConstants"/>
+        <atom:updated>2016-10-04T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns42:description xmlns:ns42="http://www.w3.org/1999/xhtml">
+                <p>
+                    Added constants for module paths into the <code>JavaClassPathConstants</code>.
+                </p>
+            </ns42:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:AccessibilityQueryImplementation2</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.api.java] Added <ns43:code xmlns:ns43="http://www.w3.org/1999/xhtml">AccessibilityQueryImplementation2</ns43:code> to allow to listen on package accessibility changes</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-api-java/apichanges.html#AccessibilityQueryImplementation2"/>
+        <atom:updated>2016-10-04T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns44:description xmlns:ns44="http://www.w3.org/1999/xhtml">
+                <p>
+                    Added <code>AccessibilityQueryImplementation2</code> interface and <code>AccessibilityQuery.isPubliclyAccessible2</code> method
+                    to allow to listen on package accessibility changes.
+                </p>
+            </ns44:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:CompilerOptionsQuery</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.api.java] Added <ns45:code xmlns:ns45="http://www.w3.org/1999/xhtml">CompilerOptionsQuery</ns45:code> for additional compiler options</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-api-java/apichanges.html#CompilerOptionsQuery"/>
+        <atom:updated>2016-10-04T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns46:description xmlns:ns46="http://www.w3.org/1999/xhtml">
+                <p>
+                    Added <code>CompilerOptionsQuery</code> for passing additional compiler options
+                    to java infrastructure.
+                </p>
+            </ns46:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:MultiplexClassPath</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.api.java.classpath] Added a <ns47:code xmlns:ns47="http://www.w3.org/1999/xhtml">ClassPath</ns47:code> switching among several <ns48:code xmlns:ns48="http://www.w3.org/1999/xhtml">ClassPath</ns48:code> instances</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-api-java-classpath/apichanges.html#MultiplexClassPath"/>
+        <atom:updated>2016-10-04T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns49:description xmlns:ns49="http://www.w3.org/1999/xhtml">
+                <p>
+                    Added a factory method into <code>ClassPathSupport</code> creating a <code>ClassPath</code>
+                    switching among several <code>ClassPath</code> instances.
+                </p>
+            </ns49:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:classfile-isModule</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.classfile] Added isModule method into ClassFile</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-classfile/apichanges.html#classfile-isModule"/>
+        <atom:updated>2016-10-04T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns50:description xmlns:ns50="http://www.w3.org/1999/xhtml">
+                Added isModule method into a ClassFile to test that a classfile
+                represents a module descriptor.
+            </ns50:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:Module</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.classfile] Support for Java 9 Module attribute</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-classfile/apichanges.html#Module"/>
+        <atom:updated>2016-10-04T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns51:description xmlns:ns51="http://www.w3.org/1999/xhtml">
+                Java 9 added a Module attribute for module-info.class describing
+                the module.
+            </ns51:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:J2SEProjectBuilder-DefaultModuleProperties</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.j2seproject] Added a method to create default module properties</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-j2seproject/apichanges.html#J2SEProjectBuilder-DefaultModuleProperties"/>
+        <atom:updated>2016-10-04T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns52:description xmlns:ns52="http://www.w3.org/1999/xhtml">
+                Added a method into the <code>J2SEProjectBuilder</code> to create default module properties for J2SEProject.
+            </ns52:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:CompilerOptionsQueryMerger</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.project] Added a <ns53:code xmlns:ns53="http://www.w3.org/1999/xhtml">LookupMerger</ns53:code> for <ns54:code xmlns:ns54="http://www.w3.org/1999/xhtml">CompilerOptionsQueryImplementation</ns54:code>s</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-project/apichanges.html#CompilerOptionsQueryMerger"/>
+        <atom:updated>2016-10-04T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns55:description xmlns:ns55="http://www.w3.org/1999/xhtml">
+                Added a factory method <code>LookupMergerSupport.createCompilerOptionsQueryMerger</code>
+                to create a <code>LookupMerger</code> for <code>CompilerOptionsQueryImplementation</code>s
+                instances.
+            </ns55:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:JavaRunner-module-path</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.project.ui] Added a constant for execute module path into <ns56:code xmlns:ns56="http://www.w3.org/1999/xhtml">JavaRunner</ns56:code>
+            </xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-project-ui/apichanges.html#JavaRunner-module-path"/>
+        <atom:updated>2016-10-04T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns57:description xmlns:ns57="http://www.w3.org/1999/xhtml">
+                Added a constant <code>PROP_EXECUTE_MODULEPATH</code> for execute module path into <code>JavaRunner</code>.
+            </ns57:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:JavaFileWizardIteratorFactory</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.project.ui] Allows to extend the New Java File Wizard by project specific panels</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-project-ui/apichanges.html#JavaFileWizardIteratorFactory"/>
+        <atom:updated>2016-10-04T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns58:description xmlns:ns58="http://www.w3.org/1999/xhtml">
+                Allows to extend the New Java File Wizard by project specific panels.
+            </ns58:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:TreeMaker.module</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.source.base] Added methods to generate/modify the module-info.java files</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-source-base/apichanges.html#TreeMaker.module"/>
+        <atom:updated>2016-10-04T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>dbalek</atom:name>
+            <atom:email>dbalek@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns59:description xmlns:ns59="http://www.w3.org/1999/xhtml">
+            Added methods to generate/modify the module-info.java files
+        </ns59:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:TypesEvent.module</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.source.base] Added an information about changes in the module-info</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-source-base/apichanges.html#TypesEvent.module"/>
+        <atom:updated>2016-10-04T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns60:description xmlns:ns60="http://www.w3.org/1999/xhtml">
+            Added an information about changes in the module-info.
+        </ns60:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:ElementOpenForTreePathHandle</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.sourceui] Adding ElementOpen.open(FileObject toSearch, TreePathHandle toOpen)</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-sourceui/apichanges.html#ElementOpenForTreePathHandle"/>
+        <atom:updated>2016-10-04T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns61:description xmlns:ns61="http://www.w3.org/1999/xhtml">
+                 Adding ElementOpen.open(FileObject toSearch, TreePathHandle toOpen) method.
+            </ns61:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:ModuleInfoDirectivesIcons</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.sourceui] Added a method to return an icon for module info directive</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-sourceui/apichanges.html#ModuleInfoDirectivesIcons"/>
+        <atom:updated>2016-10-04T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns62:description xmlns:ns62="http://www.w3.org/1999/xhtml">
+                Added the<code>getModuleDirectiveIcon</code> method into the <code>ElementIcons</code>
+                to return an icon for a module info directive.
+            </ns62:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:platform-chooser-per-project-platform</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.api.common] Platform combobox handles per project platforms</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-api-common/apichanges.html#platform-chooser-per-project-platform"/>
+        <atom:updated>2016-08-18T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns63:description xmlns:ns63="http://www.w3.org/1999/xhtml">
+                <p>
+                    Platform combobox created by <code>PlatformUiSupport</code> handles
+                    per project <code>JavaPlatform</code>s.
+                </p>
+            </ns63:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:bootcp-per-project-platform</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.api.common] Boot ClassPath uses JavaPlatform defined in project</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-api-common/apichanges.html#bootcp-per-project-platform"/>
+        <atom:updated>2016-08-17T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns64:description xmlns:ns64="http://www.w3.org/1999/xhtml">
+                <p>
+                    Boot ClassPath created by <code>ClassPathProviderImpl</code> uses a <code>JavaPlatform</code>
+                    defined in project.
+                </p>
+            </ns64:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:java-platform-factory</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.platform] Added a SPI to create new JavaPlatform </xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-platform/apichanges.html#java-platform-factory"/>
+        <atom:updated>2016-08-17T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns65:description xmlns:ns65="http://www.w3.org/1999/xhtml">
+                <p>
+                    Added a SPI allowing <code>JavaPlatform</code> implementors
+                    to export ability to create a new <code>JavaPlatform</code>.
+                </p>
+            </ns65:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:ProjectPlatform</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.project] Added a support for per project JavaPlatform</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-project/apichanges.html#ProjectPlatform"/>
+        <atom:updated>2016-08-17T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns66:description xmlns:ns66="http://www.w3.org/1999/xhtml">
+                <p>
+                    Added a support for per project <code>JavaPlatform</code>.
+                    The usecase for the per project JavaPlatform is a generated
+                    project. The project generator puts platform path into
+                    the project properties and the generated projects have correct
+                    JavaPlatform. There is no need to resolve broken JavaPlatform
+                    when the projects are opened.
+                </p>
+                <p>
+                    To use the per project <code>JavaPlatform</code> set the
+                    <code>platform.active</code> property to the platform name and
+                    add the <code>platforms.&lt;platform_name&gt;.home</code> property
+                    pointing to the path to the JDK home.
+                </p>
+                <p>
+                    Example:<br/>
+                    <code>platforms.MyJDK.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home</code>
+                        <br/>
+                    <code>platform.active=MyJDK</code>
+                        <br/>
+                </p>
+            </ns66:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:orderingAttribute.added</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.editor.codetemplates] Added <ns67:code xmlns:ns67="http://www.w3.org/1999/xhtml">ordering</ns67:code> for code template parameters.</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-editor-codetemplates/apichanges.html#orderingAttribute.added"/>
+        <atom:updated>2016-08-15T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>markiewb</atom:name>
+            <atom:email>markiewb@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns68:description xmlns:ns68="http://www.w3.org/1999/xhtml">
+                 The ordering attribute defines the sequence in which placeholders arecompleted. Use 0 for the first element, 1 for the second... Placeholders
+                 without ordering information will be placed after the last placeholder with ordering information.
+                 <br/>
+                 Example of ordering of parameters :
+                 <pre xml:space="preserve">
+                     // paramC comes first, then paramB, then paramA
+                     ${paramA} ${paramB ordering=2} ${paramC ordering=1}
+                 </pre>
+             </ns68:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:EditorActionRegistration.category</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.editor.lib2] Added category to EditorActionRegistration</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-editor-lib2/apichanges.html#EditorActionRegistration.category"/>
+        <atom:updated>2016-07-16T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>markiewb</atom:name>
+            <atom:email>markiewb@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns69:description xmlns:ns69="http://www.w3.org/1999/xhtml">
+                <p>Allow to set the keymap-category for an action registered using @EditorActionRegistration.</p>
+            </ns69:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:utilities.findVisibleElements</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.source.base] List elements with their definining Scope</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-source-base/apichanges.html#utilities.findVisibleElements"/>
+        <atom:updated>2016-05-31T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>sdedic</atom:name>
+            <atom:email>sdedic@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns70:description xmlns:ns70="http://www.w3.org/1999/xhtml">
+            Allows to enumerate Elements matching passed <code>ElementFilter</code> according
+            to hiding and inheritance rules. The method may be useful to list elements matching certain
+            criteria, or to check whether an element exists and find what class/method defined it.
+        </ns70:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:EditorCaret-bias</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.editor.lib2] Position.Bias support added to EditorCaret</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-editor-lib2/apichanges.html#EditorCaret-bias"/>
+        <atom:updated>2016-05-25T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>mmetelka</atom:name>
+            <atom:email>mmetelka@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns71:description xmlns:ns71="http://www.w3.org/1999/xhtml">
+                <p>
+                    CaretInfo.getDotBias() and CaretInfo.getMarkBias() added together
+                    with other methods and parameters for bias manipulation to properly handle bidirectional text.
+                </p>
+            </ns71:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:HintTest-fixNotPresent</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.hints.test] Assertion for missing fixes</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-hints-test/apichanges.html#HintTest-fixNotPresent"/>
+        <atom:updated>2016-05-24T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>sdedic</atom:name>
+            <atom:email>sdedic@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns72:description xmlns:ns72="http://www.w3.org/1999/xhtml">
+                A method <code>assertFixesNotPresent</code> was added to easily detect that fix is gone if e.g. some precondition is not met.
+            </ns72:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:ProjectConvertors-delegatingLookup</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.projectuiapi.base] Added a support method into <ns73:code xmlns:ns73="http://www.w3.org/1999/xhtml">ProjectConvertors</ns73:code> creating a <ns74:code xmlns:ns74="http://www.w3.org/1999/xhtml">Lookup</ns74:code> delegating to the owner project.</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-projectuiapi-base/apichanges.html#ProjectConvertors-delegatingLookup"/>
+        <atom:updated>2016-05-24T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns75:description xmlns:ns75="http://www.w3.org/1999/xhtml">
+                <p>
+                    Added a support method into <code>ProjectConvertors</code> creating a <code>Lookup</code> delegating to the owner project.
+                </p>
+            </ns75:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:SplitOffsetHighlightsSequence</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.editor.lib2] Renamed ShiftHighlightsSequence to SplitOffsetHighlightsSequence</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-editor-lib2/apichanges.html#SplitOffsetHighlightsSequence"/>
+        <atom:updated>2016-05-23T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>mmetelka</atom:name>
+            <atom:email>mmetelka@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns76:description xmlns:ns76="http://www.w3.org/1999/xhtml">
+              <p>
+                  Renamed ShiftHighlightsSequence to SplitOffsetHighlightsSequence
+                  to and its getStartShift() to getStartSplitOffset() for better description
+                  and getEndShift() to getEndSplitOffset().
+              </p>
+          </ns76:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:ModuleInfoAccessibilityQuery</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.api.common] Added a factory method into <ns77:code xmlns:ns77="http://www.w3.org/1999/xhtml">QuerySupport</ns77:code>to create a module-info based <ns78:code xmlns:ns78="http://www.w3.org/1999/xhtml">AccessibilityQueryImplementation2</ns78:code> instance</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-api-common/apichanges.html#ModuleInfoAccessibilityQuery"/>
+        <atom:updated>2016-05-19T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns79:description xmlns:ns79="http://www.w3.org/1999/xhtml">
+                <p>
+                    Added a factory method into <code>QuerySupport</code>to create a module-info based <code>AccessibilityQueryImplementation2</code> instance.
+                </p>
+            </ns79:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:TypeUtilities.getDenotableType</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.source.base] Provide type suitable for declaration in source</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-source-base/apichanges.html#TypeUtilities.getDenotableType"/>
+        <atom:updated>2016-05-16T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>sdedic</atom:name>
+            <atom:email>sdedic@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns80:description xmlns:ns80="http://www.w3.org/1999/xhtml">
+            Support method which allows to infer a type suitable for use in symbol
+            declaration in the source was added.
+        </ns80:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:utilities.implementAndOverride.defaultMethods</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.source.base] Allow to return also unimplemented default methods</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-source-base/apichanges.html#utilities.implementAndOverride.defaultMethods"/>
+        <atom:updated>2016-05-10T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>sdedic</atom:name>
+            <atom:email>sdedic@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns81:description xmlns:ns81="http://www.w3.org/1999/xhtml">
+            <p>
+                <code>findUnimplementedMethods</code> and <code>findOverridableMethods</code>
+                work better with interface default methods: they are treated as implemented,
+                but overridable.
+            </p>
+            <p>
+                Allow <code>ElementUtilities.findUnimplementedMethods</code> enumerate
+                also default methods whose implementations are not provided by class or
+                superclasses.
+            </p>
+        </ns81:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:EditorUtilities.addCaretUndoableEdit</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.editor.lib2] EditorUtilities.addCaretUndoableEdit added</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-editor-lib2/apichanges.html#EditorUtilities.addCaretUndoableEdit"/>
+        <atom:updated>2016-04-19T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>mmetelka</atom:name>
+            <atom:email>mmetelka@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns82:description xmlns:ns82="http://www.w3.org/1999/xhtml">
+                <p>
+                    EditorUtilities.addCaretUndoableEdit allows actions to remember caret position
+                    during an atomic transaction over a document.
+                </p>
+            </ns82:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:Watch_Pin</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.api.debugger] API for pinned Watches</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-api-debugger/apichanges.html#Watch_Pin"/>
+        <atom:updated>2016-04-18T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>mentlicher</atom:name>
+            <atom:email>mentlicher@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns83:description xmlns:ns83="http://www.w3.org/1999/xhtml">
+            A <code>Watch.Pin</code> base interface introduced as a basis
+            for specific platform-dependent and location-dependent implementations.
+            <code>DebuggerManager.createPinnedwatch()</code> introduced.
+        </ns83:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:StickyWindowSupport</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.editor.lib2] Support for sticky windows in the editor</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-editor-lib2/apichanges.html#StickyWindowSupport"/>
+        <atom:updated>2016-04-18T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>ralphbenjamin</atom:name>
+            <atom:email>ralphbenjamin@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns84:description xmlns:ns84="http://www.w3.org/1999/xhtml">
+                <p>
+                    Support for Sticky Windows in the editor. JComponents can be
+                    added to a layer on top of the editor. Components will
+                    update their vertical position on editor changes.
+                </p>
+            </ns84:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:editor-caret-filters</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.editor.lib2] Support for Navigation Filters, and caret move origins</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-editor-lib2/apichanges.html#editor-caret-filters"/>
+        <atom:updated>2016-04-14T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>sdedic</atom:name>
+            <atom:email>sdedic@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns85:description xmlns:ns85="http://www.w3.org/1999/xhtml">
+                <p>
+                    Swing NavigationFilters implemented on top of the Caret API. Caret API caller may describe the operation which causes
+                    the caret to be moved, so that filters and caret listeners can react on specific action groups.
+                </p>
+                <p>
+                    A boilerplate NavigationFilter is provided, that supports chaining of filters on the caret
+                </p>
+            </ns85:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:editor-registry-find-component</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.editor.lib2] Added EditorRegistry.findComponent</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-editor-lib2/apichanges.html#editor-registry-find-component"/>
+        <atom:updated>2016-04-06T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>mmetelka</atom:name>
+            <atom:email>mmetelka@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns86:description xmlns:ns86="http://www.w3.org/1999/xhtml">
+                <p>
+                    The EditorRegistry.findComponent() allows caret related undo edits
+                    to be undone in a focused component (for multiple views over a single document).
+                </p>
+                <p>
+                    Also simplified naming of EditorActionNames.addCaretUp and addCaretDown.
+                </p>
+            </ns86:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:UnitTestsCompilerOptionsQuery</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.api.common] Added a factory method into <ns87:code xmlns:ns87="http://www.w3.org/1999/xhtml">QuerySupport</ns87:code>to create unit tests <ns88:code xmlns:ns88="http://www.w3.org/1999/xhtml">CompilerOptionsQueryImplementation</ns88:code> provider</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-api-common/apichanges.html#UnitTestsCompilerOptionsQuery"/>
+        <atom:updated>2016-03-24T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns89:description xmlns:ns89="http://www.w3.org/1999/xhtml">
+                <p>
+                    Added a factory method into <code>QuerySupport</code>to create an implementation of the
+                    <code>CompilerOptionsQueryImplementation</code> providing explicit compiler options for
+                    tests compilation based on the source level and module-infos in source and test roots.
+                </p>
+            </ns89:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:CompilerOptionsQueryImpl</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.api.common] Added a factory method into <ns90:code xmlns:ns90="http://www.w3.org/1999/xhtml">QuerySupport</ns90:code>to create<ns91:code xmlns:ns91="http://www.w3.org/1999/xhtml">CompilerOptionsQueryImplementation</ns91:code> provider</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-api-common/apichanges.html#CompilerOptionsQueryImpl"/>
+        <atom:updated>2016-03-16T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns92:description xmlns:ns92="http://www.w3.org/1999/xhtml">
+                <p>
+                    Added a factory method into <code>QuerySupport</code>to create an Ant property based implementation of
+                    the <code>CompilerOptionsQueryImplementation</code>.
+                </p>
+            </ns92:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:ProjectProperties-modulepath</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.api.common] Added modulepath properties into the <ns93:code xmlns:ns93="http://www.w3.org/1999/xhtml">ProjectProperties</ns93:code>
+            </xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-api-common/apichanges.html#ProjectProperties-modulepath"/>
+        <atom:updated>2016-03-15T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>tzezula</atom:name>
+            <atom:email>tzezula@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns94:description xmlns:ns94="http://www.w3.org/1999/xhtml">
+                <p>
+                    Added constants holding the modulepath property names into the<code>ProjectProperties</code>.
+                    The following constants were added <code>JAVAC_MODULEPATH</code>, <code>JAVAC_TEST_MODULEPATH</code>,
+                    <code>RUN_MODULEPATH</code>,<code>RUN_TEST_MODULEPATH</code>,
+                    <code>DEBUG_MODULEPATH</code>,<code>DEBUG_TEST_MODULEPATH</code>.
+                </p>
+            </ns94:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:editor-caret</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.editor.lib2] Caret API introduced</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-editor-lib2/apichanges.html#editor-caret"/>
+        <atom:updated>2016-02-22T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>mmetelka</atom:name>
+            <atom:email>mmetelka@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns95:description xmlns:ns95="http://www.w3.org/1999/xhtml">
+                <p>
+                    The Caret API was introduced to allow working with multiple
+                    carets within one document.
+                </p>
+            </ns95:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:shift-highlights-sequence</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.editor.lib2] Extended HightlightsSequence by ShiftHighlightsSequence</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-editor-lib2/apichanges.html#shift-highlights-sequence"/>
+        <atom:updated>2016-02-22T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>mmetelka</atom:name>
+            <atom:email>mmetelka@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns96:description xmlns:ns96="http://www.w3.org/1999/xhtml">
+                <p>
+        Highlights sequence that supports shifts in addition to regular offsets.
+        This allows to color individual spaces within a tab character
+        or to color extra virtual characters beyond a newline character.
+                </p>
+            </ns96:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:GapListAddAll</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.editor.util] Added methods to append elements to a GapList</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-editor-util/apichanges.html#GapListAddAll"/>
+        <atom:updated>2016-02-22T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>mmetelka</atom:name>
+            <atom:email>mmetelka@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns97:description xmlns:ns97="http://www.w3.org/1999/xhtml">
+              Added supplementary methods to GapList to accompany the existing
+              methods to add elements.
+          </ns97:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:ChildFactory.DestroyableNodes</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.openide.nodes] Adding ChildFactory.Detachable to allow ChildFactory implementations to
+            attach and detach listeners more easily
+        </xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-openide-nodes/apichanges.html#ChildFactory.DestroyableNodes"/>
+        <atom:updated>2016-02-18T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>phejl</atom:name>
+            <atom:email>phejl@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns98:description xmlns:ns98="http://www.w3.org/1999/xhtml">
+            <a href="org-openide-nodes/org/openide/nodes/ChildFactory.html" shape="rect">ChildFactory</a>
+            is useful for creating node children lazily on a background thread,
+            and for simplifying working with Children.Keys.  One oversight in
+            the original API was providing for notification that the nodes created
+            by the ChildFactory are no longer in use and should clean up any
+            resources.
+            <p>
+                DestroyableNodesFactory is an abstract class which adds
+                destroyNodes methods to ChildFactory.Detachable.
+            </p>
+        </ns98:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:protectRange</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.editor.guards] Allow to protect existing text</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-editor-guards/apichanges.html#protectRange"/>
+        <atom:updated>2016-02-17T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>sdedic</atom:name>
+            <atom:email>sdedic@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns99:description xmlns:ns99="http://www.w3.org/1999/xhtml">
+                Added method to create guarded block on top of existing text.
+            </ns99:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:occurrences-names</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.editor.lib2] Added IDs for goto prev/next occurrence actions</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-editor-lib2/apichanges.html#occurrences-names"/>
+        <atom:updated>2016-01-30T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>sdedic</atom:name>
+            <atom:email>sdedic@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns100:description xmlns:ns100="http://www.w3.org/1999/xhtml">
+                <p>
+                    Many languages define their own actions and support for navigating between symbol occurrences.
+                    Common action name allows them to be presented and configured as one action in IDE configuration.
+                </p>
+           </ns100:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:issue-255918</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.api.debugger.jpda] Enhanced smart-stepping.</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-api-debugger-jpda/apichanges.html#issue-255918"/>
+        <atom:updated>2015-10-21T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>mentlicher</atom:name>
+            <atom:email>mentlicher@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns101:description xmlns:ns101="http://www.w3.org/1999/xhtml">
+            <code>SmartSteppingCallback.stopAt()</code> method added to be able
+            to override the default smart-stepping logic and provide specific
+            steps that should be performed at given locations.
+        </ns101:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:org.openide.loaders.DataFolder.SortMode.NATURAL</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.openide.loaders] Introduces SortMode for natural sorting.</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-openide-loaders/apichanges.html#org.openide.loaders.DataFolder.SortMode.NATURAL"/>
+        <atom:updated>2015-10-21T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>jhavlin</atom:name>
+            <atom:email>jhavlin@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns102:description xmlns:ns102="http://www.w3.org/1999/xhtml">
+              <p>
+                  Added support for natural sorting of DataObjects. This means
+                  that the sort is case insensitive and number sequences are
+                  sorted by value rather than lexicographically.
+              </p>
+          </ns102:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+    <atom:entry>
+        <atom:id>urn:netbeans-org:apichanges:generator.insert.caretlocation</atom:id>
+        <atom:title type="xhtml">
+            <xhtml:div>[org.netbeans.modules.java.source.base] Code Generator uses caret location to insert members</xhtml:div>
+        </atom:title>
+        <atom:link rel="alternate" type="text/html" href="org-netbeans-modules-java-source-base/apichanges.html#generator.insert.caretlocation"/>
+        <atom:updated>2015-10-05T00:00:00Z</atom:updated>
+        <atom:author>
+            <atom:name>ralphbenjamin</atom:name>
+            <atom:email>ralphbenjamin@netbeans.org</atom:email>
+        </atom:author>
+        <atom:summary type="xhtml">
+            <xhtml:div>
+                <ns103:description xmlns:ns103="http://www.w3.org/1999/xhtml">
+            Added an overloaded method to Code Generator should to include the
+            caret location when inserting members. This will be used when the
+            codestyle is CodeStyle.InsertionPoint.CARET_LOCATION.
+        </ns103:description>
+            </xhtml:div>
+        </atom:summary>
+    </atom:entry>
+</atom:feed>
