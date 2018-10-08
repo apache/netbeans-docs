@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.netbeans.nbbuild.CheckLinks" tests="1" time="0.0">
+    <testcase classname="org.netbeans.nbbuild.CheckLinks" name="testBrokenLinks" time="0.0">
+        <failure message="There were broken links" type="junit.framework.AssertionFailedError">There were broken links
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.windows/apichanges.xml:16:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-windows/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.windows/arch.xml:9:10: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-windows/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.windows/src/org/openide/windows/doc-files/api.html:34:34: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-windows/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.windows/src/org/openide/windows/doc-files/api.html:374:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-explorer/org/openide/explorer/ExplorerUtils.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.windows/src/org/openide/windows/doc-files/api.html:228:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-actions/org/openide/actions/doc-files/api.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.windows/src/org/openide/windows/package.html:34:14: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-windows/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.windows/src/org/openide/windows/package.html:41:14: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-windows/help-doc.html</failure>
+    </testcase>
+</testsuite>

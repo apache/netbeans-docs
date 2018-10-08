@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.netbeans.nbbuild.CheckLinks" tests="1" time="0.0">
+    <testcase classname="org.netbeans.nbbuild.CheckLinks" name="testBrokenLinks" time="0.0">
+        <failure message="There were broken links" type="junit.framework.AssertionFailedError">There were broken links
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.lookup/apichanges.xml:486:67: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-loaders/org/openide/loaders/FolderLookup.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.lookup/apichanges.xml:16:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-util-lookup/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.lookup/arch.xml:195:38: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-util-ui/org/openide/util/SharedClassObject.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.lookup/arch.xml:363:18: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-modules/org/openide/modules/doc-files/api.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.lookup/arch.xml:61:195: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-util/org/openide/util/doc-files/api.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.lookup/arch.xml:9:10: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-util-lookup/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.lookup/arch.xml:376:14: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-util/org/openide/util/doc-files/api.html#ido-methodvalue
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.lookup/arch.xml:378:68: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-util/org/openide/util/BaseUtilities.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.lookup/src/org/openide/util/lookup/package.html:41:14: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-util-lookup/help-doc.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.lookup/src/org/openide/util/lookup/package.html:34:14: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-util-lookup/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.lookup/src/org/openide/util/package.html:41:14: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-util-lookup/help-doc.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/openide.util.lookup/src/org/openide/util/package.html:34:14: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-util-lookup/overview-summary.html</failure>
+    </testcase>
+</testsuite>

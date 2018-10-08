@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.netbeans.nbbuild.CheckLinks" tests="1" time="0.0">
+    <testcase classname="org.netbeans.nbbuild.CheckLinks" name="testBrokenLinks" time="0.0">
+        <failure message="There were broken links" type="junit.framework.AssertionFailedError">There were broken links
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.templates/apichanges.xml:26:10: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-templates/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.templates/apichanges.xml:165:24: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-templates/overview-summary.html#html-and-maven
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.templates/apichanges.xml:199:36: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-templates/overview-summary.html#javaTargetChooser
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.templates/arch.xml:9:10: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-templates/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.templates/arch.xml:191:43: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-loaders/org/openide/loaders/DataObject.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.templates/arch.xml:130:231: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-loaders/org/openide/loaders/CreateFromTemplateHandler.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.templates/arch.xml:526:22: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-loaders/org/openide/loaders/CreateFromTemplateAttributesProvider.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.templates/arch.xml:35:163: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-openide-loaders/index.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.templates/src/org/netbeans/api/templates/package.html:34:14: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-templates/overview-summary.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/api.templates/src/org/netbeans/api/templates/package.html:41:14: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-api-templates/help-doc.html</failure>
+    </testcase>
+</testsuite>

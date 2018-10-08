@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="org.netbeans.nbbuild.CheckLinks" tests="1" time="0.0">
+    <testcase classname="org.netbeans.nbbuild.CheckLinks" name="testBrokenLinks" time="0.0">
+        <failure message="There were broken links" type="junit.framework.AssertionFailedError">There were broken links
+/home/nsigma/Code/NetBeans/incubator-netbeans/masterfs/apichanges.xml:226:30: Broken link: file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-modules-masterfs-ui/org/netbeans/modules/masterfs/providers/AnnotationProvider.html
+/home/nsigma/Code/NetBeans/incubator-netbeans/masterfs/arch.xml:127:30: broken link (already reported): file:/home/nsigma/Code/NetBeans/incubator-netbeans/nbbuild/build/javadoc/org-netbeans-modules-masterfs-ui/org/netbeans/modules/masterfs/providers/AnnotationProvider.html</failure>
+    </testcase>
+</testsuite>
